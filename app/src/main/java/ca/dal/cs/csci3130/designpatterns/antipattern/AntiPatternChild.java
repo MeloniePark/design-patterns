@@ -3,7 +3,7 @@ package ca.dal.cs.csci3130.designpatterns.antipattern;
 public class AntiPatternChild extends AntiPatternParent {
 
     public AntiPatternChild() {
-        //super();
+        super();
         System.out.println("Child initialized!");
     }
 

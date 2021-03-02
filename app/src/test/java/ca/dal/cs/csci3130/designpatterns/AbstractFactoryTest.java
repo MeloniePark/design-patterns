@@ -1,7 +1,6 @@
 package ca.dal.cs.csci3130.designpatterns;
 
 import org.junit.Test;
-
 import ca.dal.cs.csci3130.designpatterns.abstractfactory.AbstractShapeFactory;
 import ca.dal.cs.csci3130.designpatterns.abstractfactory.FactoryProducer;
 import ca.dal.cs.csci3130.designpatterns.abstractfactory.Rectangle;
@@ -10,7 +9,6 @@ import ca.dal.cs.csci3130.designpatterns.abstractfactory.RoundedSquare;
 import ca.dal.cs.csci3130.designpatterns.abstractfactory.Shape;
 import ca.dal.cs.csci3130.designpatterns.abstractfactory.ShapeConstants;
 import ca.dal.cs.csci3130.designpatterns.abstractfactory.Square;
-
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertFalse;
