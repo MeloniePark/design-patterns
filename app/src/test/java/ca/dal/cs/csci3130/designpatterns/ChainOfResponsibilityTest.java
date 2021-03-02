@@ -6,7 +6,6 @@ import ca.dal.cs.csci3130.designpatterns.chainOfResponsibility.AbstractLogger;
 import ca.dal.cs.csci3130.designpatterns.chainOfResponsibility.ChainOfLoggers;
 
 public class ChainOfResponsibilityTest {
-
     @Test
     public void testCOR() {
         ChainOfLoggers chainProvider = new ChainOfLoggers();
