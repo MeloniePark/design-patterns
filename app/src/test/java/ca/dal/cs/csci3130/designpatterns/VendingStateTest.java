@@ -13,12 +13,11 @@ public class VendingStateTest {
         VendingDepositState depositState=new VendingDepositState();
         depositState.doAction(environment);
 
-        System.out.println("Environment is in "+ environment.getState().toString() +" state");
+        System.out.println(environment.getState().toString() +": Deposit your coins!");
 
         VendingStockState stockState=new VendingStockState();
         stockState.doAction(environment);
 
-        System.out.println("Environment is in "+ environment.getState().toString() +" state");
-
+        System.out.println(environment.getState().toString() +": Collect your chips!");
     }
 }
