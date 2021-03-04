@@ -13,6 +13,5 @@ public class VisitorTest {
         Computer computer=new Computer();
         ComputerPartVisitor visitor=new ComputerPartDisplayVisitor();
         computer.accept(visitor);
-        //visitor.visit(computer);
     }
 }
