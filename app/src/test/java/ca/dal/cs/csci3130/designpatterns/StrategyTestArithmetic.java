@@ -12,16 +12,16 @@ public class StrategyTestArithmetic {
 
     @Test
     public void testStrategy() {
-        Strategy add = new Add();
-        Context context = new Context(add);
+        Strategy strategy1 = new Add();
+        Context context = new Context(strategy1);
         context.executeStrategy(10, 5);
 
-        Strategy subtract = new Subtract();
-        context = new Context(subtract);
+        Strategy strategy2 = new Subtract();
+        context = new Context(strategy2);
         context.executeStrategy(10, 5);
 
-        Strategy multiply = new Multiply();
-        context = new Context(multiply);
+        Strategy strategy3 = new Multiply();
+        context = new Context(strategy3);
         context.executeStrategy(10, 5);
     }
 }

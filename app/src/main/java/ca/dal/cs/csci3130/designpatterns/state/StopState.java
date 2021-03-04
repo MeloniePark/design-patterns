@@ -4,7 +4,7 @@ public class StopState implements State {
 
     @Override
     public void doAction(Context context) {
-        System.out.println("This is stop state!");
+        System.out.println("INTERNAL: stop state!");
         context.setState(this);
     }
 

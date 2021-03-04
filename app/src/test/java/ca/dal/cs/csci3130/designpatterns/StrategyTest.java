@@ -13,16 +13,16 @@ public class StrategyTest {
 
     @Test
     public void testStrategy() {
-        Strategy bus = new CityBus();
-        TransportService service = new TransportService(bus);
+        Strategy vehicle1 = new CityBus();
+        TransportService service = new TransportService(vehicle1);
         service.executeStrategy();
 
-        Strategy personalCar = new PersonalCar();
-        service = new TransportService(personalCar);
+        Strategy vehicle2 = new PersonalCar();
+        service = new TransportService(vehicle2);
         service.executeStrategy();
 
-        Strategy taxi = new Taxi();
-        service = new TransportService(taxi);
+        Strategy vehicle3 = new Taxi();
+        service = new TransportService(vehicle3);
         service.executeStrategy();
     }
 }
